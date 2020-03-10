@@ -141,11 +141,35 @@ h1{
   font-size: 20pt;
 }
 
-.efeito:hover{
+#imagem:hover{
  background-position: 0px 0px;
- width: 400px;
- height: 400px;
- -webkit-transform: scale(1.5);
- 
+ -webkit-transform: scale(1.4);
+ box-shadow: 0 0 0 cyan;
+ transition: .5s ease;
+position: center;
 
+
+}
+div#Borda{
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px;
+  align-content: center;
+  
+}
+button#anterior{
+  position: absolute;
+  top: 50%;
+  left: 6.4%;
+}
+button#proximo{
+  position: absolute;
+  top: 50%;
+  right:300px;
+}
+#imagem{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  left: 500px;
 }
