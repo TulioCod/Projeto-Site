@@ -23,3 +23,4 @@ proximo.onclick = function () {
         imagem.src = "/images/Fotos Escola/imagem"+cont+".jpg";
     }
 };
+

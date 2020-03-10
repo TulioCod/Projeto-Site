@@ -147,9 +147,10 @@ h1{
  box-shadow: 0 0 0 cyan;
  transition: .5s ease;
 position: center;
-
-
+border-radius: 15px;
 }
+
+
 div#Borda{
   position: relative;
   box-sizing: border-box;
@@ -160,16 +161,16 @@ div#Borda{
 button#anterior{
   position: absolute;
   top: 50%;
-  left: 6.4%;
+  left: 400px;
 }
 button#proximo{
   position: absolute;
   top: 50%;
-  right:300px;
+  right:400px;
 }
 #imagem{
   width: 400px;
   height: 300px;
   position: relative;
-  left: 500px;
+  left: 536.5px;
 }
