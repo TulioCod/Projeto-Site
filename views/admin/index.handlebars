@@ -1,20 +1,21 @@
 
 
-<div id="grupo">
-    <div class="texto" id="esquerda">
-    
-    </div>
-
-  <div class="card">Diretor</div>
+<div class="bloco">
+<div   id="bloco1"></div>
+<div   id="bloco2"></div>
+<div   id="bloco3"></div>
+</div>
+<div class="card">Diretor</div>
 
 <!--<img id="jov1" src="/images/diret.jpg">-->
-<div class="card">Vice-Diretor</div></div>  
+<div class="card">Vice-Diretor</div>
 <!--<img id="jov2" src="/images/viced.png">-->
     <style>
       /*  @media	(max-width:	800px)	{
    */
         .card{
         height: 300px;
+        float: none;
 
         }
         img#jov1 {
@@ -35,20 +36,45 @@
             border-radius: 12px;
         }
 
-        .texto {
-            border: 1px solid black;
+        
+            
+       
+
+        .bloco{
+           
+            border: 1px solid blue;
             border-radius: 15px;
             padding: 15px;
-            width: 1000px;
-            height: 200px;
-            float: left;
+            width: auto;
+            height: auto;
+            margin: 20px;
+            text-align: center;
+           
         }
 
-        div#esquerda {
-            position: absolute;
+        div#bloco1{
+            border: 1px solid blue;
+            border-radius: 15px;
+            display: inline-block;
+            width: 25%;
+            height: 400px;
+            margin: 20px;
         }
-
-        div#grupo{
-            padding: 40px;
+        div#bloco2{
+            border: 1px solid blue;
+            border-radius: 15px;
+            display: inline-block;
+            width: 25%;
+            height: 400px;
+            margin: 20px;
         }
+        div#bloco3{
+            border: 1px solid blue;
+            border-radius: 15px;
+            display: inline-block;
+            width: 25%;
+            height: 400px;
+            margin: 20px;
+        }
+       
     </style>
