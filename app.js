@@ -48,7 +48,9 @@ app.get("/eventos/campeonatos/campsala", function(req, res) {
 app.get("/eventos/campeonatos/jemg", function(req, res) {
     res.render('admin/jemg') 
 })
-
+app.get("/eventos/campeonatos/jemg/gouveia", function(req, res) {
+    res.render("admin/jemgouv")
+})
 app.get("/localizacao", function(req, res) {
         res.render("admin/localizacao")
     })
