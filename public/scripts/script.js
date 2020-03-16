@@ -28,14 +28,17 @@ proximo.onclick = function () {
 var imagem = document.getElementById('imagem')
 imagem.addEventListener('click',clique)
 imagem.addEventListener('mouseout',sair)
-
     function clique() {
-      imagem.style.width = '620px';
-      imagem.style.height = '420px';
-      imagem.style.left ='536.5px'
+        //imagens viagens
+      imagem.style.width = '45%';
+      imagem.style.height = '45%';
+      imagem.style.left ='30%';
+      imagem.style.boxShadow = '10px 10px 10px rgba(0, 0, 0, 0.336)';
+ 
 }
 function sair(){
-  imagem.style.width = '400px';
-      imagem.style.height = '300px';
+  imagem.style.width = '30%';
+      imagem.style.height = '30%';
+      imagem.style.left ='500px';
     
-}
+    } 
