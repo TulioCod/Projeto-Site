@@ -46,11 +46,17 @@
         dia=dia+prim;
         dia+=7;
         var marcacao=document.getElementsByClassName("dias")[dia];
-        marcacao.style.backgroundColor= "rgb(10,110,100)";
+        marcacao.style.backgroundColor= "rgb(0,255,0)";
         
         for(var i=0;i<7;i++){
             var semana=document.getElementsByClassName("dias")[i];
             semana.style.backgroundColor= "rgb(0,0,255)";
             semana.innerHTML=diassem[i]
         }
-            
+        
+        //for(var i=0;i<45;i++){
+        //    var semana=document.getElementsByClassName("dias")[i].innerHTML;
+         //   if(semana==''){
+          //      document.getElementsByClassName("dias")[i].remove();
+           // }
+        //}
