@@ -2,7 +2,7 @@
 var anterior = document.getElementById("anterior");
 var proximo = document.getElementById("proximo");
 var imagem = document.getElementById("imagem");
-var qtdImagem = new Number(10);
+var qtdImagem = new Number(55);
 
 var cont = 0 ;
 
