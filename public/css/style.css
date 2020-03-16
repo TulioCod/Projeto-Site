@@ -1,8 +1,8 @@
-
 #menu ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100%;
   overflow: hidden;
 }
 li{
@@ -13,7 +13,7 @@ td a{
    
     text-align: right;
     display: inline;
-    border-bottom: navy;
+    border-bottom:rgba(5, 27, 50, 1);
    color: white;
     display: block;
     padding: 14px 16px;
@@ -24,6 +24,11 @@ td a{
 td a:hover{
     background-color:  rgba(2, 59, 73, 0.425);
 }
+tbody{
+  position: relative;
+  left: 50%;
+}
+
 p#nome{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  font-size: 40px;
@@ -42,6 +47,7 @@ img#jov{
 }
 div#cbc{
     text-align: center;
+    width: 100%;
 }
 
 header{
@@ -49,15 +55,16 @@ header{
   position: relative;
   display: grid;
     height:auto ;
-    width:100% ;
-    background-color: rgb(6, 110, 179);
+    width:102% ;
+    background-color: rgba(5, 27, 50, 1);
+    border-radius: 20px;
 }
 table{
    top: 0%;
    left:20%;
    margin-bottom: .5em;
  
-}
+} 
 td{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  font-size: 16px;
@@ -73,13 +80,14 @@ body{
   width: 97%;
   border: 0%;
   padding: 0%;
-  background:  rgb(6, 110, 179);
+  background: rgba(10, 52, 96, 1);
   font: normal 15pt Arial;
+  color: white;
 }
 
 section{
-background: white;
-border-radius: 10px;
+background:  rgba(10, 52, 96, 1);
+
 padding: 15px;
 width: 100%;
 height: 100%;
@@ -109,13 +117,13 @@ img#social{
   footer{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 11pt;
-
-    width:100%;
+    border-radius: 20px;
+    width:100.7%;
     height: 50px;
     left: 0px;
      bottom: 0px;
      padding: 10px;
-   background-color:rgb(6, 110, 179);
+   background-color:rgba(5, 27, 50, 1);
    color: white;
   
   }
@@ -147,7 +155,8 @@ h1{
  box-shadow: 0 0 0 cyan;
  transition: .5s ease;
 position: center;
-border-radius: 15px;
+left: 500px;
+
 }
 
 
@@ -161,16 +170,22 @@ div#Borda{
 button#anterior{
   position: absolute;
   top: 50%;
-  left: 400px;
+  left: 375px;
+  height: 60px;
+  width: 60px;
 }
 button#proximo{
   position: absolute;
   top: 50%;
   right:400px;
+  height: 60px;
+  width: 60px;
 }
 #imagem{
-  width: 400px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
   position: relative;
-  left: 536.5px;
+  left: 500px;
+ border: 3px solid rgb(255, 255, 255);
 }
+
