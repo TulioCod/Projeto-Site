@@ -149,15 +149,6 @@ h1{
   font-size: 20pt;
 }
 
-#imagem:hover{
- background-position: 0px 0px;
- -webkit-transform: scale(1.4);
- box-shadow: 0 0 0 cyan;
- transition: .5s ease;
-position: center;
-left: 500px;
-
-}
 
 
 div#Borda{
@@ -177,7 +168,7 @@ button#anterior{
 button#proximo{
   position: absolute;
   top: 50%;
-  right:400px;
+  right:395px;
   height: 60px;
   width: 60px;
 }
@@ -186,6 +177,16 @@ button#proximo{
   height: 30%;
   position: relative;
   left: 500px;
- border: 3px solid rgb(255, 255, 255);
+ border: 2px solid rgb(255, 255, 255);
 }
 
+#imagem:hover{
+  background-position: 0px 0px;
+  -webkit-transform: scale(1.4);
+  box-shadow: 0 0 0 cyan;
+  transition: .5s ease;
+ position: center;
+ left: 500px;
+ 
+ }
+ 
