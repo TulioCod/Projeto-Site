@@ -27,7 +27,7 @@ app.get("/eventos/campeonatos", function(req, res) {
 app.get("/eventos/campeonatos/futsal",function(req,res){
     res.render("admin/futsal")
 })
-app.get("/eventos/campeonatos/volei",function(req,res){
+app.get("/eventos/campeonatos/vol",function(req,res){
     res.render("admin/campvol")
 })
 app.get("/eventos/campeonatos/hand",function(req,res){
@@ -39,6 +39,9 @@ app.get("/eventos/viagens", function(req, res) {
 app.get("/historia", function(req, res) {
     res.render('admin/historia')
 })
+app.get("/calendario", function(req, res) {
+    res.render('admin/calendario')
+})
 app.get("/eventos", function(req, res) {
     res.render('admin/eventos')
 })
@@ -48,8 +51,8 @@ app.get("/eventos/campeonatos/campsala", function(req, res) {
 app.get("/eventos/campeonatos/jemg", function(req, res) {
     res.render('admin/jemg') 
 })
-app.get("/calendario", function(req, res) {
-    res.render('admin/calendario') 
+app.get("/eventos/campeonatos/jemg/gouveia", function(req, res) {
+    res.render("admin/jemgouv")
 })
 app.get("/localizacao", function(req, res) {
         res.render("admin/localizacao")

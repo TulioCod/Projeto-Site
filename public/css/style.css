@@ -64,7 +64,7 @@ table{
    left:20%;
    margin-bottom: .5em;
  
-}
+} 
 td{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
  font-size: 16px;
@@ -149,13 +149,6 @@ h1{
   font-size: 20pt;
 }
 
-#imagem:hover{
- background-position: 0px 0px;
- -webkit-transform: scale(1.4);
- box-shadow: 0 0 0 cyan;
- transition: .5s ease;
-position: center;
-}
 
 
 div#Borda{
@@ -168,16 +161,32 @@ div#Borda{
 button#anterior{
   position: absolute;
   top: 50%;
-  left: 400px;
+  left: 375px;
+  height: 60px;
+  width: 60px;
 }
 button#proximo{
   position: absolute;
   top: 50%;
-  right:400px;
+  right:395px;
+  height: 60px;
+  width: 60px;
 }
 #imagem{
-  width: 400px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
   position: relative;
-  left: 536.5px;
+  left: 500px;
+ border: 2px solid rgb(255, 255, 255);
 }
+
+#imagem:hover{
+  background-position: 0px 0px;
+  -webkit-transform: scale(1.4);
+  box-shadow: 0 0 0 cyan;
+  transition: .5s ease;
+ position: center;
+ left: 500px;
+ 
+ }
+ 
