@@ -23,7 +23,7 @@
         for(var i=0;i<7;i++){
             document.write("\n");
             for(var j=0;j<7;j++){
-                document.write("<div class='dias'></div>");
+                document.write("<div class='dias'>-</div>");
             }
         }
         
@@ -54,9 +54,10 @@
             semana.innerHTML=diassem[i]
         }
         
-        for(var i=0;i<45;i++){
+        for(var i=0;i<50;i++){
             var semana=document.getElementsByClassName("dias")[i].innerHTML;
-           if(semana==''){
-              document.getElementsByClassName("dias")[i].remove();
-         }
+            var tdm=document.getElementsByClassName("dias")[i];
+           if(semana=="-"){
+              document.getElementsByClassName("dias")[i].style.visibility="hidden";
         }
+    }
