@@ -70,7 +70,12 @@ td{
  font-size: 16px;
     text-align: center;
     color: azure;
-    background-color:rgba(2, 59, 73, 0.425);
+    
+    
+}
+td a{
+  border-radius: 15px;
+  background-color:rgba(2, 59, 73, 0.425);
 }
 /* Cabeçalho*/
 /* body*/
@@ -105,11 +110,13 @@ div.card{
 img#social{
     width: 50px;
     height: 50px;
+    border-radius: 15px;
   }
   img#logo-ti{
     width:50px;
     height: 50px;
     float: left;
+    border-radius: 15px;
   }
 
 
