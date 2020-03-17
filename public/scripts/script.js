@@ -42,3 +42,9 @@ function sair(){
       imagem.style.left ='500px';
     
     } 
+
+
+
+
+
+    
