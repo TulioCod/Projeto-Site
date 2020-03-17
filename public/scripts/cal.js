@@ -54,9 +54,9 @@
             semana.innerHTML=diassem[i]
         }
         
-        //for(var i=0;i<45;i++){
-        //    var semana=document.getElementsByClassName("dias")[i].innerHTML;
-         //   if(semana==''){
-          //      document.getElementsByClassName("dias")[i].remove();
-           // }
-        //}
+        for(var i=0;i<45;i++){
+            var semana=document.getElementsByClassName("dias")[i].innerHTML;
+           if(semana==''){
+              document.getElementsByClassName("dias")[i].remove();
+         }
+        }
