@@ -191,8 +191,8 @@ button#proximo:hover{
 }
 
 #imagem{
-  width: 30%;
-  height: 30%;
+  width: 400px;
+  height: 300px;
   position: relative;
   left: 500px;
  border: 2px solid rgb(255, 255, 255);
@@ -207,4 +207,3 @@ button#proximo:hover{
  left: 500px;
  
  }
- 
